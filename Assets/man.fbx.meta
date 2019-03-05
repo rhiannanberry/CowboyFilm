@@ -27,6 +27,7 @@ ModelImporter:
     100042: Character1_Spine2
     100044: MAN
     100046: //RootNode
+    100048: Character1_Hips
     400000: Character1_Head
     400002: Character1_Hips.001
     400004: Character1_LeftArm
@@ -51,6 +52,7 @@ ModelImporter:
     400042: Character1_Spine2
     400044: MAN
     400046: //RootNode
+    400048: Character1_Hips
     2100000: Body
     2100002: Face
     2100004: Boot

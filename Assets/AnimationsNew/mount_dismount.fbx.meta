@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 513d6277301cf434998089673b2d42f9
+guid: 720b855cee739c8ac872e1dfdc2df511
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: Character1_Head
     100002: Character1_Head_end
-    100004: Character1_Hips.001
+    100004: Character1_Hips
     100006: Character1_LeftArm
     100008: Character1_LeftFoot
     100010: Character1_LeftForeArm
@@ -30,11 +30,11 @@ ModelImporter:
     100048: Character1_Spine
     100050: Character1_Spine1
     100052: Character1_Spine2
-    100054: MAN
+    100054: Empty
     100056: //RootNode
     400000: Character1_Head
     400002: Character1_Head_end
-    400004: Character1_Hips.001
+    400004: Character1_Hips
     400006: Character1_LeftArm
     400008: Character1_LeftFoot
     400010: Character1_LeftForeArm
@@ -59,22 +59,10 @@ ModelImporter:
     400048: Character1_Spine
     400050: Character1_Spine1
     400052: Character1_Spine2
-    400054: MAN
+    400054: Empty
     400056: //RootNode
-    2100000: Body
-    2100002: Face
-    4300000: MAN
-    7400000: Character1_Hips.001|Character1_Hips.001|Character1_Hips.001|Character1_Hips.001|ani
-    7400002: Character1_Hips.001|Character1_Hips.001|Character1_Hips.001|Character1_Hips|ani.000
-    7400004: Character1_Hips.001|Character1_Hips.001|Character1_Hips.001|Character1_Hips|anim_st
-    7400006: Character1_Hips.001|Character1_Hips.001|Character1_Hips.001|IDLE|Character1_Hips.00
-    7400008: Character1_Hips.001|Character1_Hips.001|Character1_Hips.001|WalkAndShoot|Character1
-    7400010: Character1_Hips.001|Character1_Hips.001|anim_stack|anim_layer
-    7400012: Character1_Hips.001|Character1_Hips|anim_stack|anim_layer
-    7400014: Character1_Hips.001|Character1_Hips|anim_stack|anim_layer.001
-    7400016: Character1_Hips.001|WalkAndShoot
+    7400000: MountDismount
     9500000: //RootNode
-    13700000: MAN
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -102,7 +90,35 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: MountDismount
+      takeName: Character1_Hips|Character1_Hips|Character1_Hips|Character1_Hips|anim_stack|anim
+      firstFrame: 1033
+      lastFrame: 3336
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
